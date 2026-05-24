@@ -1,1 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Snack Links</title>
 
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #09090b;
+      color: white;
+      padding: 18px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 1.6rem;
+      margin: 8px 0 18px;
+      letter-spacing: -0.04em;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+    }
+
+    .card {
+      min-height: 86px;
+      padding: 14px;
+      border-radius: 18px;
+      color: white;
+      text-decoration: none;
+      display: flex;
+      align-items: flex-end;
+      font-weight: 800;
+      font-size: 0.9rem;
+      line-height: 1.1;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.35);
+      transition: transform 0.15s ease, filter 0.15s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-3px);
+      filter: brightness(1.12);
+    }
+
+    .c1 { background: #ef4444; }
+    .c2 { background: #f97316; }
+    .c3 { background: #eab308; color: #18181b; }
+    .c4 { background: #22c55e; }
+    .c5 { background: #14b8a6; }
+    .c6 { background: #06b6d4; }
+    .c7 { background: #3b82f6; }
+    .c8 { background: #6366f1; }
+    .c9 { background: #8b5cf6; }
+    .c10 { background: #d946ef; }
+    .c11 { background: #ec4899; }
+    .c12 { background: #f43f5e; }
+
+    @media (min-width: 650px) {
+      .grid {
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+      .card {
+        min-height: 110px;
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+    <h1>Snack Links</h1>
+
+    <section class="grid">
+      <a class="card c1" href="https://www.walmart.com/ip/Jell-O-Instant-Cheesecake-Sugar-Free-Fat-Free-Pudding-Pie-Filling-1-Oz/13812827">Jell-O Cheesecake Pudding</a>
+      <a class="card c2" href="https://www.walmart.com/ip/Jell-O-Chocolate-Fudge-Artificially-Flavored-Zero-Sugar-Instant-Reduced-Calorie-Pudding-Pie-Filling-Mix-1-4-oz-Box/13727065">Jell-O Chocolate Fudge</a>
+      <a class="card c3" href="https://www.target.com/b/hormbles-chormbles/-/N-q643lend5dn">Hormbles Chormbles</a>
+      <a class="card c4" href="https://www.walmart.com/ip/Weetabix-Protein-Cereal-24-per-pack-imported-from-the-UK/119662154">Weetabix Protein</a>
+
+      <a class="card c5" href="https://www.walmart.com/ip/David-Gold-Protein-Bar-Fudge-Brownie-4ct/18028658554">David Gold Protein Bar</a>
+      <a class="card c6" href="https://www.walmart.com/ip/Legendary-Foods-Protein-Pastry-Chocolate-Cake-4-Pack-Protein-Snack-Gluten-Free-Keto-Friendly/565306226">Legendary Protein Pastry</a>
+      <a class="card c7" href="https://www.walmart.com/ip/Snack-Cakes-Little-Debbie-Big-Pack-COSMIC-Brownies/10318809">Cosmic Brownies</a>
+      <a class="card c8" href="https://www.walmart.com/ip/MONSTER-ULTRA-BLUE-HAWAIIAN-US-1-16OZ/7288463227">Monster Ultra Blue Hawaiian</a>
+
+      <a class="card c9" href="https://www.walmart.com/ip/NABISCO-OREO-ZERO-SUGAR-COOKIES-8-OZ/17089465104">Oreo Zero Sugar</a>
+      <a class="card c10" href="https://www.walmart.com/ip/Kool-aid-Koolaid-Jammers-Zero-Sugar-Trop-Punch/714408904">Kool-Aid Jammers Zero</a>
+      <a class="card c11" href="https://www.walmart.com/ip/Reese-s-Zero-Sugar-Miniatures-Chocolate-Peanut-Butter-Cups-Candy-Bag-5-1-oz/281553232">Reese’s Zero Sugar</a>
+      <a class="card c12" href="https://www.walmart.com/ip/Diet-Mountain-Dew-Soda-Pop-16-9-fl-oz-12-Pack-Plastic-Bottles/16785012">Diet Mountain Dew</a>
+
+      <a class="card c1" href="https://www.walmart.com/ip/Mountain-Dew-Zero-Sugar-Citrus-Soda-Pop-12-fl-oz-24-Pack-Cans/350606844">Mountain Dew Zero</a>
+      <a class="card c2" href="https://www.walmart.com/ip/Maple-Grove-Farms-Maple-Flavor-Sugar-Free-Spread-24-fl-oz/10322416">Sugar-Free Maple Spread</a>
+      <a class="card c3" href="https://www.walmart.com/ip/Hershey-s-Zero-Sugar-Chocolate-Syrup-Bottle-17-5-oz/10818402">Hershey’s Zero Syrup</a>
+      <a class="card c4" href="https://www.skinnymixes.com/collections/coffee-syrups/products/sugar-free-salted-caramel-syrup">Salted Caramel Syrup</a>
+
+      <a class="card c5" href="https://www.walmart.com/ip/Taj-n-Cl-sico-Seasoning-Mexican-Chili-Lime-Seasoning-5-oz/10849977">Tajín Seasoning</a>
+      <a class="card c6" href="https://www.walmart.com/ip/Great-Value-Classic-Ranch-Salad-Dressing-Recipe-Mix-1-oz/187211086">Ranch Mix</a>
+      <a class="card c7" href="https://www.walmart.com/ip/Skittles-Zero-Sugar-Variety-Pack-Singles-to-Go-Powdered-Drink-Mix-Original-30-Count-Packets/183928659">Skittles Zero Drink Mix</a>
+    </section>
+  </main>
+</body>
+</html>
